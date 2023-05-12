@@ -9,6 +9,6 @@ jobs:
       - id: foo
         uses: gengyu-liu-s/hello-world-composite-action@1.0.1
         with:
-          who-to-greet: 'Mona the Octocat'
+          who-to-greet: 'test test private'
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
         shell: bash
